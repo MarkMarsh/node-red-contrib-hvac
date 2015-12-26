@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-hvac",
+  "version": "1.0.0",
+  "description": "Node-Red Nodes to implement a heating / cooling controller.",
+  "dependencies": {
+    "hvac": "2.x"
+  },
+  "author": {
+    "name": "Mark Marsh",
+    "url": "https://github.com/markmarsh"
+  },
+  "keywords": [
+    "node-red",
+    "hvac",
+    "heating",
+    "controller"
+  ],
+  "node-red": {
+    "nodes": {
+      "hvac": "hvac/nrhvac.js"
+    }
+  },
+  "main": "hvac/nrhvac.js",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/markmarsh/node-red-contrib-hvac",
+  "scripts": {},
+  "directories": {}
+}
